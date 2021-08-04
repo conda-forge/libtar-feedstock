@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://repo.or.cz/libtar.git/snapshot/0907a9034eaf2a57e8e4a9439f793f3f05d446cd.tar.gz
-  sha256: 4847207d878e79a4acbe32f096e57cd72c9507171953849e4d7eafe312418d95
+  url: https://repo.or.cz/libtar.git/snapshot/6d0ab4c78e7a8305c36a0c3d63fd25cd1493de65.tar.gz
+  sha256: f48c2d7b3e9780beaca14c9cd39582458c43b202c46cf2067bfc67bb152e140b
 
 build:
-  number: 1002
+  number: 1003
   skip: True  # [win]
   run_exports:
     # no idea, going with minor pin
