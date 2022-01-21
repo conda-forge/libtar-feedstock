@@ -10,7 +10,7 @@ source:
   sha256: f48c2d7b3e9780beaca14c9cd39582458c43b202c46cf2067bfc67bb152e140b
 
 build:
-  number: 1003
+  number: 1004
   skip: True  # [win]
   run_exports:
     # no idea, going with minor pin
